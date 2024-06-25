@@ -6,141 +6,144 @@
     <title>Yadu Sarathchandran, PhD - AI/ML/DS Portfolio</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
             line-height: 1.6;
             color: #333;
-            max-width: 800px;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
         }
         header {
             text-align: center;
-            margin-bottom: 40px;
+            padding: 50px 0;
+            background-color: #fff;
         }
-        img {
-            max-width: 200px;
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .profile-img {
+            width: 200px;
             border-radius: 50%;
-        }
-        h1 {
-            color: #2c3e50;
-        }
-        .intro {
-            font-size: 1.1em;
             margin-bottom: 20px;
         }
-        .cta-button {
-            display: inline-block;
-            background-color: #3498db;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s;
+        h1, h2 {
+            color: #2c3e50;
         }
-        .cta-button:hover {
-            background-color: #2980b9;
+        .section {
+            background-color: #fff;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .skill-category {
+            flex-basis: 48%;
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            text-align: center;
+        }
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <header>
-        <img src="profile-photo.jpg" alt="Yadu Sarathchandran, PhD">
+        <img src="profile-photo.jpg" alt="Yadu Sarathchandran, PhD" class="profile-img">
         <h1>Yadu Sarathchandran, PhD</h1>
         <p>Data Scientist | Machine Learning Engineer | Physicist</p>
     </header>
-    
-    <main>
-        <section class="intro">
-            <h1>Welcome to My Data Science Portfolio!</h1>
-        <p>I am an experienced data scientist specializing in machine learning, statistical analysis, and data engineering. With a proven track record of developing innovative data-driven solutions, I help businesses make informed decisions and uncover valuable insights. My expertise lies in synthesizing results quickly and effectively, driving impactful business decisions.</p>
 
-        <h2>Background and Expertise</h2>
-        <p>Transitioning from academia, where I earned a PhD in Physics in early 2022, to the private sector, I bring a unique perspective in solving impactful problems in R&D. My academic training instilled perseverance and critical thinking in my approach to tackle complex business problems and present compelling data stories that accelerate decision-making.</p>
-
-        <h2>Core Competencies</h2>
+    <nav>
         <ul>
-            <li><strong>Machine Learning</strong>: Proficient in supervised machine learning techniques including tree-based methods (XGBoost, Random Forest, Cat Boost, Gradient Boosted Trees), Bayesian analysis, Support Vector Machines, and Neural Network methods. Skilled in unsupervised learning techniques such as clustering and principal component analysis (PCA).</li>
-            <li><strong>Deep Learning</strong>: Expertise in convolutional neural networks (CNNs) and Recurrent Neural Networks using TensorFlow and PyTorch. Proficient in natural language processing (NLP) with LangChain, NLTK, and HuggingFace.</li>
-            <li><strong>Scientific Analysis</strong>: Experienced in data analysis, experimentation, simulations, A/B testing, statistical analysis, and quantitative modeling.</li>
-            <li><strong>Programming Languages</strong>: Proficient in SQL, Python, C++, and Bash.</li>
-            <li><strong>Database Management</strong>: Skilled in PostgreSQL and MongoDB.</li>
-            <li><strong>Tech Stack</strong>: Strong experience working with PyTorch, Scikit-learn, Pandas, TensorFlow, dbt, Looker, Tableau, GitHub, and AWS (S3, Lambda, SageMaker).</li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
+    </nav>
 
-<!--         <h2>Services Offered</h2> -->
-<!--         <ul> -->
-<!--             <li><strong>Data-Driven Decision Making</strong>: Helping businesses leverage data to make informed decisions.</li> -->
-<!--             <li><strong>Stakeholder Engagement</strong>: Building quick rapport with stakeholders to understand their needs and provide data-driven recommendations.</li> -->
-<!--             <li><strong>Prototyping Solutions</strong>: Rapid prototyping of data solutions to address business challenges.</li> -->
-<!--         </ul> -->
-
-        <h2>Why I might be of service to you?</h2>
-        <ul>
-            <li><strong>Proven Expertise</strong>: Demonstrated success in both academic research and private sector projects.</li>
-            <li><strong>Innovative Solutions</strong>: Committed to developing innovative solutions that drive business growth.</li>
-            <li><strong>Effective Communication</strong>: Skilled in presenting complex data insights in a clear and compelling manner.</li>
-        </ul>
-
-        <p>Explore my portfolio to see examples of my work and the impact I have made in various industries. Let's work together to turn data into actionable insights!</p>
-
-        <h2>Contact Me</h2>
-        <ul>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/yadu-sarathchandran/" target="_blank">linkedin.com/in/yadu-sarathchandran/</a></li>
-            <li>GitHub: <a href="https://github.com/Yadukrishnan1" target="_blank">github.com/Yadukrishnan1</a></li>
-            <li>Email: <a href="mailto:yadusarathchandran@gmail.com">yadusarathchandran@gmail.com</a></li>
-        </ul>
-
-        <h2>Programming Languages</h2>
-        <ul>
-            <li>SQL</li>
-            <li>Python</li>
-            <li>C++</li>
-            <li>PostgreSQL</li>
-            <li>Bash</li>
-        </ul>
-
-        <h2>Machine Learning</h2>
-        <ul>
-            <li>Supervised Learning: Tree-based, Bayesian, Support Vector Machines, Non-parametric, FLD, Neural Network, XGBoost, CatBoost</li>
-            <li>Unsupervised Learning: Clustering, PCA</li>
-        </ul>
-
-        <h2>Deep Learning</h2>
-        <ul>
-            <li>Neural Networks (RNN, CNN, LSTM): TensorFlow, Keras, PyTorch</li>
-            <li>Natural Language Processing: Lanchain, NLTK, SpaCy, HuggingFace</li>
-            <li>Computer Vision: Keras, OpenCV</li>
-        </ul>
-
-        <h2>Scientific Skills</h2>
-        <ul>
-            <li>Data Analysis</li>
-            <li>Experimentation</li>
-            <li>Simulations</li>
-            <li>A/B Testing</li>
-            <li>Statistical Analysis</li>
-            <li>Quantitative Modelling</li>
-        </ul>
-
-        <h2>Tech Stack</h2>
-        <ul>
-            <li>PyTorch</li>
-            <li>Scikit-learn</li>
-            <li>Pandas</li>
-            <li>TensorFlow</li>
-            <li>dbt</li>
-            <li>Looker</li>
-            <li>Tableau</li>
-            <li>GitHub</li>
-            <li>MongoDB</li>
-            <li>AWS (S3, Lambda, SageMaker)</li>
-        </ul>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>I am an experienced data scientist specializing in machine learning, statistical analysis, and data engineering. With a PhD in Physics (2022), I bring a unique perspective to solving impactful problems in R&D and business. My expertise lies in synthesizing results quickly and effectively, driving impactful decisions through data-driven insights.</p>
         </section>
-        
-        <section>
-            <a href="about.html" class="cta-button">Learn More About Me</a>
-            <a href="projects.html" class="cta-button">View My Projects</a>
+
+        <section id="skills" class="section">
+            <h2>Skills & Expertise</h2>
+            <div class="skills">
+                <div class="skill-category">
+                    <h3>Machine Learning</h3>
+                    <ul>
+                        <li>Supervised Learning: Tree-based methods, Bayesian analysis, SVMs, Neural Networks</li>
+                        <li>Unsupervised Learning: Clustering, PCA</li>
+                        <li>Deep Learning: CNNs, RNNs (TensorFlow, PyTorch)</li>
+                        <li>NLP: LangChain, NLTK, HuggingFace</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Programming & Tools</h3>
+                    <ul>
+                        <li>Languages: SQL, Python, C++, Bash</li>
+                        <li>Databases: PostgreSQL, MongoDB</li>
+                        <li>Tech Stack: PyTorch, Scikit-learn, Pandas, TensorFlow, dbt, Looker, Tableau</li>
+                        <li>Cloud: AWS (S3, Lambda, SageMaker)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Scientific Skills</h3>
+                    <ul>
+                        <li>Data Analysis & Experimentation</li>
+                        <li>Simulations & A/B Testing</li>
+                        <li>Statistical Analysis</li>
+                        <li>Quantitative Modelling</li>
+                    </ul>
+                </div>
+            </div>
         </section>
-    </main>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <p>Explore my portfolio to see examples of my work and the impact I have made in various industries. [Add project summaries or links here]</p>
+        </section>
+
+        <section id="contact" class="section contact-info">
+            <h2>Contact Me</h2>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/yadu-sarathchandran/" target="_blank">linkedin.com/in/yadu-sarathchandran/</a></p>
+            <p>GitHub: <a href="https://github.com/Yadukrishnan1" target="_blank">github.com/Yadukrishnan1</a></p>
+            <p>Email: <a href="mailto:yadusarathchandran@gmail.com">yadusarathchandran@gmail.com</a></p>
+        </section>
+    </div>
 </body>
 </html>
